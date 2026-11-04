@@ -6,6 +6,7 @@
     "scripts": {
         "dev": "tsx watch src/server.ts",
         "build": "tsc",
+        "knex": "tsx ./node_modules/knex/bin/cli.js",
         "start": "node dist/server.js",
         "typecheck": "tsc --noEmit"
     },
