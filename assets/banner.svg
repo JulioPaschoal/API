@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="API de Transações">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="0.6" stop-color="#1e1b4b"/>
+      <stop offset="1" stop-color="#134e4a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#818cf8"/>
+      <stop offset="1" stop-color="#2dd4bf"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+  <circle cx="1090" cy="40" r="130" fill="#2dd4bf" opacity="0.08"/>
+  <circle cx="1150" cy="270" r="90" fill="#818cf8" opacity="0.10"/>
+
+  <!-- Ícone: duas setas opostas representando entradas e saídas -->
+  <g transform="translate(110 80)">
+    <rect width="160" height="160" rx="36" fill="url(#accent)"/>
+    <g fill="none" stroke="#0f172a" stroke-width="13" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M38 60 H122 M98 36 L122 60 L98 84"/>
+      <path d="M122 100 H38 M62 76 L38 100 L62 124"/>
+    </g>
+  </g>
+
+  <g font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="310" y="160" font-size="72" font-weight="700" fill="#f8fafc">API de Transações</text>
+    <text x="312" y="212" font-size="28" fill="#cbd5e1">Node.js · TypeScript · Fastify · Knex · SQLite</text>
+  </g>
+</svg>
