@@ -15,19 +15,22 @@
     "license": "ISC",
     "type": "module",
     "dependencies": {
+        "dotenv": "^18.0.9",
         "fastify": "^5.12.8",
         "knex": "^3.3.0",
-        "sqlite3": "^6.0.1"
+        "sqlite3": "^6.0.1",
+        "zod": "^4.6.7"
     },
     "devDependencies": {
         "@eslint/js": "^10.0.1",
         "@types/node": "^24.19.2",
+        "@typescript/native": "npm:typescript@^7.0.2",
         "eslint": "^10.14.0",
         "eslint-plugin-simple-import-sort": "^14.0.0",
         "globals": "^17.14.0",
         "prettier": "3.9.10",
         "tsx": "^4.23.15",
-        "typescript": "^7.0.2",
+        "typescript": "npm:@typescript/typescript6@^6.0.2",
         "typescript-eslint": "^8.72.1"
     }
 }
