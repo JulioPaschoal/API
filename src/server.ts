@@ -6,7 +6,7 @@ import { transactionsRoutes } from './routes/transactions.js';
 
 const app = fastify();
 
-app.register(transactionsRoutes);
+app.register(transactionsRoutes, { prefix: 'transactions' });
 
 app.get('/', async () => {
     const transactions = await knex('transactions').select('*');
