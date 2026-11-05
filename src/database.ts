@@ -1,4 +1,5 @@
 import setupKnex, { type Knex } from 'knex';
+
 import { env } from './env/index.js';
 
 export const config: Knex.Config = {
